@@ -161,7 +161,7 @@ void renderLoop(sf::Vector2u &windowSize, Scene &scene) {
 int main() {
     sf::Vector2u windowSize(400, 400);
 
-    std::string filePath = "/files/scene1.json";
+    std::string filePath = "/files/scene4.json";
     Scene scene = FileManager::CreateScene(filePath);
     std::cout << scene << std::endl;
     std::cout << "Number of threads used: " << threadCount << std::endl;

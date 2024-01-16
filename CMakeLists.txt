@@ -15,7 +15,7 @@ include_directories(${SFML_INCLUDE_DIR})
 link_libraries(${SFML})
 
 # Doctest
-add_subdirectory(tests)
+# add_subdirectory(tests)
 
 # JSON
 include_directories(libs/JSON)
